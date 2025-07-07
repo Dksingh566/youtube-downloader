@@ -1,0 +1,13 @@
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/bin/Debug/net9.0/YoutubeDownloader.Core.deps.json
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/bin/Debug/net9.0/YoutubeDownloader.Core.dll
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/bin/Debug/net9.0/YoutubeDownloader.Core.pdb
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.csproj.AssemblyReference.cache
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.AssemblyInfoInputs.cache
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.AssemblyInfo.cs
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.csproj.CoreCompileInputs.cache
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.sourcelink.json
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.dll
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/refint/YoutubeDownloader.Core.dll
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/YoutubeDownloader.Core.pdb
+/Users/dhirendrasingh/Documents/YoutubeDownloader-2/YoutubeDownloader.Core/obj/Debug/net9.0/ref/YoutubeDownloader.Core.dll

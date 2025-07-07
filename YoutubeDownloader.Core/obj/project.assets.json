@@ -1,0 +1,609 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "AngleSharp/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CliWrap/3.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CSharpier.MsBuild/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/CSharpier.MsBuild.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/CSharpier.MsBuild.dll": {}
+        },
+        "build": {
+          "build/CSharpier.MsBuild.props": {},
+          "build/CSharpier.MsBuild.targets": {}
+        }
+      },
+      "Gress/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Gress.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gress.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "JsonExtensions/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/JsonExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/JsonExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TagLibSharp/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TagLibSharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TagLibSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "YoutubeExplode/6.5.4": {
+        "type": "package",
+        "dependencies": {
+          "AngleSharp": "1.2.0"
+        },
+        "compile": {
+          "lib/net9.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "YoutubeExplode.Converter/6.5.4": {
+        "type": "package",
+        "dependencies": {
+          "CliWrap": "3.8.1",
+          "YoutubeExplode": "6.5.4"
+        },
+        "compile": {
+          "lib/net9.0/YoutubeExplode.Converter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/YoutubeExplode.Converter.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AngleSharp/1.2.0": {
+      "sha512": "uF/PzSCVcb+b2nqVvHZbOqexoJ9R6QLjonugPf0PQl+0h7YKaFZeXyspctbHe5HGlx7/Iuk5BErtk+t63ac/ZA==",
+      "type": "package",
+      "path": "anglesharp/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "anglesharp.1.2.0.nupkg.sha512",
+        "anglesharp.nuspec",
+        "lib/net462/AngleSharp.dll",
+        "lib/net462/AngleSharp.xml",
+        "lib/net472/AngleSharp.dll",
+        "lib/net472/AngleSharp.xml",
+        "lib/net6.0/AngleSharp.dll",
+        "lib/net6.0/AngleSharp.xml",
+        "lib/net7.0/AngleSharp.dll",
+        "lib/net7.0/AngleSharp.xml",
+        "lib/net8.0/AngleSharp.dll",
+        "lib/net8.0/AngleSharp.xml",
+        "lib/netstandard2.0/AngleSharp.dll",
+        "lib/netstandard2.0/AngleSharp.xml",
+        "logo.png"
+      ]
+    },
+    "CliWrap/3.8.1": {
+      "sha512": "iSjGhNhIB0gg2ihaMNZ5ZKx1B29/i5F9dvFxa2f8mLCiHluXKHUXUpvg0abEZ0vwMpo5u9PNVdWTVyhFLKZihQ==",
+      "type": "package",
+      "path": "cliwrap/3.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cliwrap.3.8.1.nupkg.sha512",
+        "cliwrap.nuspec",
+        "favicon.png",
+        "lib/net8.0/CliWrap.dll",
+        "lib/net8.0/CliWrap.xml",
+        "lib/net9.0/CliWrap.dll",
+        "lib/net9.0/CliWrap.xml",
+        "lib/netstandard2.0/CliWrap.dll",
+        "lib/netstandard2.0/CliWrap.xml",
+        "lib/netstandard2.1/CliWrap.dll",
+        "lib/netstandard2.1/CliWrap.xml"
+      ]
+    },
+    "CSharpier.MsBuild/1.0.2": {
+      "sha512": "Y98ba4yeefqrJY+MbCXhvb8x4/mCy8zHeuu/dYKwaM4p0Yu2LToI5ffTg/ErcpPuLnwJBNE229STdhf/dlikIw==",
+      "type": "package",
+      "path": "csharpier.msbuild/1.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/CSharpier.MsBuild.props",
+        "build/CSharpier.MsBuild.targets",
+        "csharpier.msbuild.1.0.2.nupkg.sha512",
+        "csharpier.msbuild.nuspec",
+        "lib/net8.0/CSharpier.MsBuild.dll",
+        "lib/net9.0/CSharpier.MsBuild.dll",
+        "logo.png",
+        "tools/csharpier/net8.0/CSharpier",
+        "tools/csharpier/net8.0/CSharpier.Core.dll",
+        "tools/csharpier/net8.0/CSharpier.Core.pdb",
+        "tools/csharpier/net8.0/CSharpier.deps.json",
+        "tools/csharpier/net8.0/CSharpier.dll",
+        "tools/csharpier/net8.0/CSharpier.pdb",
+        "tools/csharpier/net8.0/CSharpier.runtimeconfig.json",
+        "tools/csharpier/net8.0/GitignoreParserNet.dll",
+        "tools/csharpier/net8.0/INIFileParser.dll",
+        "tools/csharpier/net8.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/csharpier/net8.0/Microsoft.CodeAnalysis.dll",
+        "tools/csharpier/net8.0/NReco.Logging.File.dll",
+        "tools/csharpier/net8.0/System.CommandLine.dll",
+        "tools/csharpier/net8.0/System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net8.0/System.IO.Abstractions.dll",
+        "tools/csharpier/net8.0/System.IO.Hashing.dll",
+        "tools/csharpier/net8.0/TestableIO.System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net8.0/TestableIO.System.IO.Abstractions.Wrappers.dll",
+        "tools/csharpier/net8.0/TestableIO.System.IO.Abstractions.dll",
+        "tools/csharpier/net8.0/XmlDiffPatch.View.dll",
+        "tools/csharpier/net8.0/XmlDiffPatch.dll",
+        "tools/csharpier/net8.0/YamlDotNet.dll",
+        "tools/csharpier/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/cs/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/de/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/es/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/fr/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/it/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/ja/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/ko/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/pl/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/pt-BR/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/CSharpier",
+        "tools/csharpier/net8.0/publish/CSharpier.Core.dll",
+        "tools/csharpier/net8.0/publish/CSharpier.Core.pdb",
+        "tools/csharpier/net8.0/publish/CSharpier.deps.json",
+        "tools/csharpier/net8.0/publish/CSharpier.dll",
+        "tools/csharpier/net8.0/publish/CSharpier.pdb",
+        "tools/csharpier/net8.0/publish/CSharpier.runtimeconfig.json",
+        "tools/csharpier/net8.0/publish/GitignoreParserNet.dll",
+        "tools/csharpier/net8.0/publish/INIFileParser.dll",
+        "tools/csharpier/net8.0/publish/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/csharpier/net8.0/publish/Microsoft.CodeAnalysis.dll",
+        "tools/csharpier/net8.0/publish/NReco.Logging.File.dll",
+        "tools/csharpier/net8.0/publish/System.CommandLine.dll",
+        "tools/csharpier/net8.0/publish/System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net8.0/publish/System.IO.Abstractions.dll",
+        "tools/csharpier/net8.0/publish/System.IO.Hashing.dll",
+        "tools/csharpier/net8.0/publish/TestableIO.System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net8.0/publish/TestableIO.System.IO.Abstractions.Wrappers.dll",
+        "tools/csharpier/net8.0/publish/TestableIO.System.IO.Abstractions.dll",
+        "tools/csharpier/net8.0/publish/XmlDiffPatch.View.dll",
+        "tools/csharpier/net8.0/publish/XmlDiffPatch.dll",
+        "tools/csharpier/net8.0/publish/YamlDotNet.dll",
+        "tools/csharpier/net8.0/publish/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/cs/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/de/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/es/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/fr/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/it/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/ja/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/ko/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/pl/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/pt-BR/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/ru/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/tr/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hans/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/publish/zh-Hant/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/ru/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/tr/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/zh-Hans/System.CommandLine.resources.dll",
+        "tools/csharpier/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net8.0/zh-Hant/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/CSharpier",
+        "tools/csharpier/net9.0/CSharpier.Core.dll",
+        "tools/csharpier/net9.0/CSharpier.Core.pdb",
+        "tools/csharpier/net9.0/CSharpier.deps.json",
+        "tools/csharpier/net9.0/CSharpier.dll",
+        "tools/csharpier/net9.0/CSharpier.pdb",
+        "tools/csharpier/net9.0/CSharpier.runtimeconfig.json",
+        "tools/csharpier/net9.0/GitignoreParserNet.dll",
+        "tools/csharpier/net9.0/INIFileParser.dll",
+        "tools/csharpier/net9.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/csharpier/net9.0/Microsoft.CodeAnalysis.dll",
+        "tools/csharpier/net9.0/NReco.Logging.File.dll",
+        "tools/csharpier/net9.0/System.CommandLine.dll",
+        "tools/csharpier/net9.0/System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net9.0/System.IO.Abstractions.dll",
+        "tools/csharpier/net9.0/System.IO.Hashing.dll",
+        "tools/csharpier/net9.0/TestableIO.System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net9.0/TestableIO.System.IO.Abstractions.Wrappers.dll",
+        "tools/csharpier/net9.0/TestableIO.System.IO.Abstractions.dll",
+        "tools/csharpier/net9.0/XmlDiffPatch.View.dll",
+        "tools/csharpier/net9.0/XmlDiffPatch.dll",
+        "tools/csharpier/net9.0/YamlDotNet.dll",
+        "tools/csharpier/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/cs/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/de/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/es/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/fr/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/it/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/ja/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/ko/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/pl/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/pt-BR/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/CSharpier",
+        "tools/csharpier/net9.0/publish/CSharpier.Core.dll",
+        "tools/csharpier/net9.0/publish/CSharpier.Core.pdb",
+        "tools/csharpier/net9.0/publish/CSharpier.deps.json",
+        "tools/csharpier/net9.0/publish/CSharpier.dll",
+        "tools/csharpier/net9.0/publish/CSharpier.pdb",
+        "tools/csharpier/net9.0/publish/CSharpier.runtimeconfig.json",
+        "tools/csharpier/net9.0/publish/GitignoreParserNet.dll",
+        "tools/csharpier/net9.0/publish/INIFileParser.dll",
+        "tools/csharpier/net9.0/publish/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/csharpier/net9.0/publish/Microsoft.CodeAnalysis.dll",
+        "tools/csharpier/net9.0/publish/NReco.Logging.File.dll",
+        "tools/csharpier/net9.0/publish/System.CommandLine.dll",
+        "tools/csharpier/net9.0/publish/System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net9.0/publish/System.IO.Abstractions.dll",
+        "tools/csharpier/net9.0/publish/System.IO.Hashing.dll",
+        "tools/csharpier/net9.0/publish/TestableIO.System.IO.Abstractions.TestingHelpers.dll",
+        "tools/csharpier/net9.0/publish/TestableIO.System.IO.Abstractions.Wrappers.dll",
+        "tools/csharpier/net9.0/publish/TestableIO.System.IO.Abstractions.dll",
+        "tools/csharpier/net9.0/publish/XmlDiffPatch.View.dll",
+        "tools/csharpier/net9.0/publish/XmlDiffPatch.dll",
+        "tools/csharpier/net9.0/publish/YamlDotNet.dll",
+        "tools/csharpier/net9.0/publish/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/cs/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/de/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/es/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/fr/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/it/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/ja/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/ko/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/pl/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/pt-BR/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/ru/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/tr/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hans/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/publish/zh-Hant/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/ru/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/tr/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/zh-Hans/System.CommandLine.resources.dll",
+        "tools/csharpier/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/csharpier/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/csharpier/net9.0/zh-Hant/System.CommandLine.resources.dll"
+      ]
+    },
+    "Gress/2.1.1": {
+      "sha512": "n/YK1XYM2xUhoPFRRJpoTk5qtWBwTkSZlWtxqb4JNX3pDfwoMiu6G+zs65y8Z8SfIUxhOhU5yO/v58WkZynECg==",
+      "type": "package",
+      "path": "gress/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "gress.2.1.1.nupkg.sha512",
+        "gress.nuspec",
+        "lib/netstandard2.0/Gress.dll",
+        "lib/netstandard2.0/Gress.xml"
+      ]
+    },
+    "JsonExtensions/1.2.0": {
+      "sha512": "ujtrK6m5BQVQLEteLfl54upN7Z59c1ZqEKmU3OlYriqnV74dIgIlNM2vkcgn2AuZEItQDNORD/2H1biI/asOdg==",
+      "type": "package",
+      "path": "jsonextensions/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "jsonextensions.1.2.0.nupkg.sha512",
+        "jsonextensions.nuspec",
+        "lib/net5.0/JsonExtensions.dll",
+        "lib/net5.0/JsonExtensions.xml",
+        "lib/netcoreapp3.0/JsonExtensions.dll",
+        "lib/netcoreapp3.0/JsonExtensions.xml",
+        "lib/netstandard2.0/JsonExtensions.dll",
+        "lib/netstandard2.0/JsonExtensions.xml"
+      ]
+    },
+    "TagLibSharp/2.3.0": {
+      "sha512": "Qo4z6ZjnIfbR3Us1Za5M2vQ97OWZPmODvVmepxZ8XW0UIVLGdO2T63/N3b23kCcyiwuIe0TQvMEQG8wUCCD1mA==",
+      "type": "package",
+      "path": "taglibsharp/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/TagLibSharp.dll",
+        "lib/net462/TagLibSharp.pdb",
+        "lib/net462/TaglibSharp.xml",
+        "lib/netstandard2.0/TagLibSharp.dll",
+        "lib/netstandard2.0/TagLibSharp.pdb",
+        "lib/netstandard2.0/TaglibSharp.xml",
+        "taglibsharp.2.3.0.nupkg.sha512",
+        "taglibsharp.nuspec"
+      ]
+    },
+    "YoutubeExplode/6.5.4": {
+      "sha512": "SWMvvvC/xEjkDEnQW28xeBXn0mgB7tsNtXvtcMpxYioyVuUWzsx94oWVQgUZIaT+Zbmvj03LaKIwK9mTGKMZQg==",
+      "type": "package",
+      "path": "youtubeexplode/6.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "lib/net9.0/YoutubeExplode.dll",
+        "lib/net9.0/YoutubeExplode.xml",
+        "lib/netstandard2.0/YoutubeExplode.dll",
+        "lib/netstandard2.0/YoutubeExplode.xml",
+        "youtubeexplode.6.5.4.nupkg.sha512",
+        "youtubeexplode.nuspec"
+      ]
+    },
+    "YoutubeExplode.Converter/6.5.4": {
+      "sha512": "Sa5S+7MGXnJk+svpUPOvoIK7QWQlUfY4liZRUUPv7oTAIyk7IY4SVHJDAG1dOAhQMh2734nBrs9y2ABlwrqJxg==",
+      "type": "package",
+      "path": "youtubeexplode.converter/6.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "lib/net9.0/YoutubeExplode.Converter.dll",
+        "lib/net9.0/YoutubeExplode.Converter.xml",
+        "lib/netstandard2.0/YoutubeExplode.Converter.dll",
+        "lib/netstandard2.0/YoutubeExplode.Converter.xml",
+        "youtubeexplode.converter.6.5.4.nupkg.sha512",
+        "youtubeexplode.converter.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "CSharpier.MsBuild >= 1.0.2",
+      "Gress >= 2.1.1",
+      "JsonExtensions >= 1.2.0",
+      "TagLibSharp >= 2.3.0",
+      "YoutubeExplode >= 6.5.4",
+      "YoutubeExplode.Converter >= 6.5.4"
+    ]
+  },
+  "packageFolders": {
+    "/Users/dhirendrasingh/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "999.9.9-dev",
+    "restore": {
+      "projectUniqueName": "/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader.Core/YoutubeDownloader.Core.csproj",
+      "projectName": "YoutubeDownloader.Core",
+      "projectPath": "/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader.Core/YoutubeDownloader.Core.csproj",
+      "packagesPath": "/Users/dhirendrasingh/.nuget/packages/",
+      "outputPath": "/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader.Core/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/dhirendrasingh/Desktop/youtube-downloader/NuGet.Config",
+        "/Users/dhirendrasingh/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "CSharpier.MsBuild": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "Gress": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "JsonExtensions": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "TagLibSharp": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "YoutubeExplode": {
+            "target": "Package",
+            "version": "[6.5.4, )"
+          },
+          "YoutubeExplode.Converter": {
+            "target": "Package",
+            "version": "[6.5.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

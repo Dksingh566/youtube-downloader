@@ -1,0 +1,73 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YoutubeDownloader
+build_property.RootNamespace = YoutubeDownloader
+build_property.ProjectDir = /Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Components/DashboardView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Dialogs/AuthSetupView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Dialogs/DownloadMultipleSetupView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Dialogs/DownloadSingleSetupView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Dialogs/MessageBoxView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/Dialogs/SettingsView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhirendrasingh/Desktop/youtube-downloader/YoutubeDownloader/Views/MainView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
